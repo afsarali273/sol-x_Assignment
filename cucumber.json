@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-12T13:48:36.048Z",
+        "line": 3,
+        "name": "Upcoming Movie Navigation",
+        "description": "",
+        "id": "upcoming-movies-validation;upcoming-movie-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32098000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the HomePage",
+            "match": {
+              "location": "iamplus.stepDefinations.PopularMovies.i_am_on_the_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8621000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the firstMovie Item from upcoming  movie list",
+            "match": {
+              "location": "iamplus.stepDefinations.UpComingMovie.i_click_on_the_firstMovie_Item_from_upcoming_movie_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9218000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I shall see Movie details of that first movie",
+            "match": {
+              "location": "iamplus.stepDefinations.PopularMovies.i_shall_see_Movie_details_of_that_first_movie()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "UpComing Movies Validation",
+    "description": "",
+    "id": "upcoming-movies-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/UpcomingMovies.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-12T13:49:26.446Z",
+        "line": 3,
+        "name": "Popular Movie Navigation",
+        "description": "",
+        "id": "popular-movies-validation;popular-movie-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30146000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the HomePage",
+            "match": {
+              "location": "iamplus.stepDefinations.PopularMovies.i_am_on_the_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6251000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the firstMovie Item from popular movie list",
+            "match": {
+              "location": "iamplus.stepDefinations.PopularMovies.i_click_on_the_firstMovie_Item_from_popular_movie_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13653000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I shall see Movie details of that first movie",
+            "match": {
+              "location": "iamplus.stepDefinations.PopularMovies.i_shall_see_Movie_details_of_that_first_movie()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Popular Movies Validation",
+    "description": "",
+    "id": "popular-movies-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/popularMovies.feature",
+    "tags": []
+  }
+]
